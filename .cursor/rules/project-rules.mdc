@@ -1,0 +1,48 @@
+
+---
+description: Project-wide coding standards for the To-Do API
+alwaysApply: true
+---
+
+# Project Overview
+
+This is a REST API for managing To-Do tasks.
+
+## Technology Stack
+
+- Node.js
+- Express.js 5
+- JavaScript ES Modules
+- Zod for validation
+- Node.js built-in test runner
+
+## Coding Rules
+
+- Use JavaScript only. Never use TypeScript.
+- Use ES module imports and exports.
+- Keep route handlers separate from business logic.
+- Keep business logic inside the services directory.
+- Use async/await where appropriate.
+- Use meaningful variable and function names.
+- Avoid unnecessary dependencies.
+
+## API Standards
+
+- Follow REST API conventions.
+- Validate incoming request data using Zod.
+- Return consistent JSON responses.
+- Use appropriate HTTP status codes.
+- Handle errors through centralized middleware.
+
+## Testing
+
+- Write tests for API endpoints.
+- Cover success and failure scenarios.
+- Run npm test after making changes.
+
+## General Instructions
+
+- Inspect the existing project before modifying files.
+- Follow the existing folder structure.
+- Do not introduce unnecessary architectural complexity.
+- Explain important changes after implementation.
