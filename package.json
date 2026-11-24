@@ -7,7 +7,9 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "test": "node --test"
+    "test": "node --test",
+    "link:agents": "node scripts/link-agents.mjs",
+    "prepare": "npm run link:agents"
   },
   "keywords": [],
   "author": "",

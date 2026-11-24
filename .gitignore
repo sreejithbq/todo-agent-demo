@@ -1,3 +1,8 @@
 node_modules/
 .env
 npm-debug.log*
+.claude/
+.cursor/
+.github/instructions/
+.github/skills/
+.github/skills
